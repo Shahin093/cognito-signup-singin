@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './App.css';
 import { CognitoUserPool } from 'amazon-cognito-identity-js';
 import Login from './components/Login';
+import MFA from './components/MFA'
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
       </form>
 
       <Login></Login>
+      <MFA></MFA>
     </div>
   );
 }
